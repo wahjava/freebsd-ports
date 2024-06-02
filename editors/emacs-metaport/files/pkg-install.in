@@ -1,3 +1,5 @@
 #!/bin/sh
 
-exec %%PREFIX%%/bin/install-emacs
+if [ "$2" = POST-INSTALL ]; then
+    exec %%PREFIX%%/bin/install-emacs
+fi

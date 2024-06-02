@@ -13,6 +13,8 @@ if [ -z "${INSTALLED_VERSION}" ]; then
     else
 	exec $0
     fi
+else
+    echo Installed emacs at $INSTALLED_VERSION
 fi
 
 exit 0
