@@ -1,4 +1,5 @@
 PORTNAME=	emacs-metaport
+PORTREVISION=	1
 DISTVERSION=	1.0.0
 CATEGORIES=	editors
 
